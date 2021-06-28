@@ -1,7 +1,10 @@
 #版本要求
-cmake_minimum_required(VERSION 3.0.0)
-#项目信息
+cmake_minimum_required(VERSION 3.13)
 project(althttpd VERSION 0.1.0)
+
+set(CMAKE_CXX_STANDARD 14)
+
+#项目信息
 
 #include(CTest)
 #enable_testing()
